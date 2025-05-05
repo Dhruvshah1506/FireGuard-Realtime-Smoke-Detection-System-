@@ -86,9 +86,11 @@ Gas Sensor: If the sensor isn't responding properly, calibrate it or adjust the 
 Blynk App Not Connecting: Double-check your auth token and WiFi credentials.
 
 **Future Improvements**
+
 Push Notifications: Integrate with services like IFTTT for notifications on mobile or email.
 Multiple Sensors: Add more sensors (e.g., smoke, temperature) for more robust detection.
 Web Dashboard: Create a web interface for monitoring the system remotely.
 
 **License**
+
 This project is open-source. Feel free to modify and contribute to it.
