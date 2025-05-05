@@ -1,23 +1,26 @@
 # FireGuard-Realtime-Smoke-Detection-System-
-Overview
+**Overview**
+
 This project implements a Smoke Detection System using an ESP8266 microcontroller, a gas sensor, a buzzer, and an OLED display. It integrates with the Blynk platform to allow real-time monitoring of gas levels and sends alerts if dangerous gas levels are detected.
 
-Features
+**Features**
+
 Real-time monitoring of gas levels via the gas sensor.
 Display gas values and status (Normal/High Alert) on an OLED screen.
 Visual alert using an OLED display.
 Sound alert through a buzzer when high gas levels are detected.
 IoT integration with Blynk for real-time status monitoring and control.
 
-Components Required
+**Components Required**
+
 ESP8266 (NodeMCU or similar): Microcontroller for WiFi connectivity.
 MQ Gas Sensor (or equivalent): To detect gas concentrations.
 Buzzer: To sound an alert when gas levels exceed the threshold.
 OLED Display (SSD1306): To display the gas levels and status.
 Jumper Wires: For connecting components.
 Breadboard: For prototyping the circuit.
-
-Software Libraries Used
+**
+Software Libraries Used**
 Blynk: 
 For IoT integration and app interface.
 Adafruit SSD1306: 
@@ -27,7 +30,7 @@ Graphics library for the OLED display.
 ESP8266WiFi: 
 To connect the ESP8266 to a WiFi network.
 
-Project Setup:
+**Project Setup:**
 
 Hardware Connections
 Gas Sensor (MQ Sensor)
@@ -61,7 +64,7 @@ Threshold Adjustment:
 You can adjust the gas detection threshold by modifying the sensorThreshold variable to suit your sensor's sensitivity.
 
 
-Code Explanation
+**Code Explanation**
 
 Initialization
 WiFi: The ESP8266 connects to your WiFi network using the ssid and pass provided.
@@ -82,10 +85,10 @@ OLED not displaying: Make sure the I2C connection is correct and the correct I2C
 Gas Sensor: If the sensor isn't responding properly, calibrate it or adjust the threshold to a more suitable value.
 Blynk App Not Connecting: Double-check your auth token and WiFi credentials.
 
-Future Improvements
+**Future Improvements**
 Push Notifications: Integrate with services like IFTTT for notifications on mobile or email.
 Multiple Sensors: Add more sensors (e.g., smoke, temperature) for more robust detection.
 Web Dashboard: Create a web interface for monitoring the system remotely.
 
-License
+**License**
 This project is open-source. Feel free to modify and contribute to it.
